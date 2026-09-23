@@ -1,0 +1,21 @@
+{
+  "name": "boi-forest-ecommerce-automation-project",
+  "version": "1.0.0",
+  "description": "Playwright JS automation for Boi Forest ecommerce flows",
+  "scripts": {
+    "test": "npx playwright test --reporter=list",
+    "test:create": "npx playwright test tests/accountCreate.spec.js --reporter=list",
+    "test:login": "npx playwright test tests/login.spec.js --reporter=list",
+    "test:forgot": "npx playwright test tests/forgotPassword.spec.js --reporter=list",
+    "test:buy": "npx playwright test tests/productBuy.spec.js --reporter=list",
+    "test:headed": "npx playwright test --headed --reporter=list",
+    "report": "npx playwright show-report"
+  },
+  "keywords": ["playwright", "automation", "boiforest"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

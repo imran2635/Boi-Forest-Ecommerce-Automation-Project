@@ -1,0 +1,9 @@
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+.auth/
+test-data/credentials.json
+.env
+*.log
+.DS_Store
